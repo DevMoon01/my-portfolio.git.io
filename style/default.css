@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.30s cubic-bezier(.215, .61, .355, 1);
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --base-color: rgb(231, 231, 231);
+    --base-variant: #e8e9ed;
+    --text-color: #111528;
+    --secondary-text: #232738;
+    --primary-color: #3a435d;
+    --accent-color: #0071ff;
+
+    --icon: #111528;
+
+    --nav-bg-color: #fff;
+    --nav-txt-color: #fff;
+    --nav-border: rgb(10, 10, 10);
+
+    --text-color2: #ffff;
+
+    --container-card: #fff;
+    --container-card-text: #010101;
+    --container-card-text-span: #adadad;
+
+    --setting-bg: #fdfdfd;
+    --setting-txt: #010101;
+
+    --first-color: hsl(82, 60%, 28%);
+    --title-color: hsl(0, 0%, 15%);
+    --text-color: hsl(0, 0%, 35%);
+    --body-color: hsl(0, 0%, 95%);
+    --container-color: hsl(0, 0%, 100%);
+
+    --hero-text: #fff;
+
+    --wrapper-bg: #fff;
+
+
+
+    --card-bg: #fff;
+    --card-bg-hover: #f1f1f1;
+}
+
+.darkmode {
+    --base-color: #000000;
+    --base-variant: #020202;
+    --text-color: #fff;
+    --secondary-text: #a4a5b8;
+    --primary-color: #3a435d;
+    --accent-color: #0071ff;
+
+    --icon: #fff;
+
+    --nav-bg-color: #131313;
+    --nav-txt-color: #fff;
+    --nav-border: #111111;
+
+    --text-color2: #ffff;
+
+    --container-card: #070606bd;
+    --container-card-text: #fff;
+    --container-card-text-span: #adadad;
+
+    --setting-bg: #010101;
+    --setting-txt: #fdfdfd;
+
+    --hero-text: #303030;
+
+    --wrapper-bg: #303030;
+
+
+
+    --card-bg: #111111;
+    --card-bg-hover: #1b1b1b;
+}
+
+
+
+
+
+
+::selection {
+    cursor: default;
+    background-color: transparent;
+}
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+
+
+
+
+body {
+    background-color: var(--base-color);
+    color: var(--text-color);
+}

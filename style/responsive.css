@@ -1,0 +1,167 @@
+@media (max-width: 1200px) {
+    .card__container {
+        display: grid;
+        row-gap: 3.5rem;
+        width: 90%;
+        min-height: 100vh;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .wrapper {
+        height: auto;
+    }
+
+
+    .hero h1 {
+        font-size: 24em !important;
+    }
+
+    .hero p {
+        font-size: 3em;
+        width: 65%;
+        position: relative;
+        top: 10%;
+    }
+}
+
+
+
+@media (max-width: 950px) {
+    .card__container {
+        display: grid;
+        row-gap: 3.5rem;
+        width: 100%;
+        min-height: 100vh;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    .hero h1 {
+        font-size: 18.5em !important;
+    }
+
+    .hero p {
+        font-size: 2.2em;
+        width: 70%;
+        position: relative;
+        top: 5%;
+    }
+}
+
+
+
+
+@media (max-width: 850px) {
+    .card__container {
+        display: grid;
+        row-gap: 3.5rem;
+        width: 100%;
+        min-height: 100vh;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .hero h1 {
+        font-size: 14.5em !important;
+    }
+
+    .hero p {
+        font-size: 1.5em;
+        width: 70%;
+        position: relative;
+        top: 5%;
+    }
+}
+
+
+
+
+@media (max-width: 630px) {
+    .card__container {
+        display: grid;
+        row-gap: 3.5rem;
+        width: 100%;
+        min-height: 100vh;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .container_card {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .container_card .text_container {
+        font-size: 1.4em;
+    }
+
+
+    .hero h1 {
+        font-size: 10.5em !important;
+    }
+
+    .hero p {
+        font-size: 1.2em;
+        width: 70%;
+        position: relative;
+        top: 5%;
+    }
+
+    .hero {
+        padding: 0;
+    }
+
+    .wrapper {
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textItem {
+        margin-left: 600px;
+    }
+
+    .navbar h3 a {
+        display: none;
+    }
+
+    .navbar h3 {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 550px) {
+    .hero h1 {
+        font-size: 8.5em !important;
+    }
+
+    .hero p {
+        font-size: 1.1em;
+        width: 95%;
+        position: relative;
+        top: 5%;
+    }
+
+    .hero {
+        padding: 0;
+    }
+
+
+    .wrapper {
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textItem {
+        margin-left: 1000px;
+        font-size: 20rem !important;
+    }
+}
