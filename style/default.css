@@ -45,6 +45,10 @@
 
     --card-bg: #fff;
     --card-bg-hover: #f1f1f1;
+
+
+    --slide-auto: #111111;
+    --slide-txt: #fff;
 }
 
 .darkmode {
@@ -78,6 +82,9 @@
 
     --card-bg: #111111;
     --card-bg-hover: #1b1b1b;
+
+    --slide-auto: #fff;
+    --slide-txt: #000;
 }
 
 

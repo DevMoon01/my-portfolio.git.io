@@ -206,6 +206,35 @@
 
 
 
+/*? wrapper slide */
+.wrapper_slide {
+    width: 100%;
+    height: 65px;
+    margin: auto;
+    background: var(--slide-auto);
+    overflow: hidden;
+    position: relative;
+}
+
+.box {
+    height: 65px;
+    position: absolute;
+    background: transparent;
+    font-size: 30px;
+    line-height: 65px;
+    text-align: center;
+    color: var(--slide-txt);
+    text-transform: uppercase;
+}
+
+.boxes {
+    position: relative;
+}
+
+
+
+
+
 
 
 
@@ -290,6 +319,26 @@
     margin-inline: auto;
     opacity: 0;
     transition: opacity 1s 1s;
+}
+
+.card__data .p_selection span {
+    background-color: #aa9151;
+    color: #fdd663;
+    padding: 5px 10px;
+    width: auto;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.null_date {
+    background-color: #aa5151;
+    color: #fd6363;
+    padding: 5px 17px;
+    width: auto;
+    border-radius: 20px;
+    font-size: 12px;
+    width: 180px !important;
+    margin-left: 5px;
 }
 
 .card__article:hover .card__data {
