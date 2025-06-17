@@ -19,9 +19,9 @@
         rel="stylesheet">
 
     <!-- Link interno per il collegamento alla pagina di Stile -->
-    <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/responsive.css">
-    <link rel="stylesheet" href="./style/default.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/responsive.css">
+    <link rel="stylesheet" href="/style/default.css">
 
 
     <!-- Tag per inserire l'autore del sito -->
@@ -43,7 +43,7 @@
 
 
     <nav class="navbar">
-        <a href="#">Work</a>
+        <a href="#w">Work</a>
         <h3><a href="#hero">Cotugno Vincenzo</a></h3>
         <a href="#c">Certifications</a>
     </nav>
@@ -101,7 +101,22 @@
     <!--! card certificate -->
     <div class="container_card" id="c">
         <h2 class="text_container">Le certificazioni 🧐</h2>
+        <p>Clicca o passo con il cursore sulle card per scoprire maggior informazioni</p>
+        <br>
         <div class="card__container">
+            <article class="card__article">
+                <img src="./images/isl.png" alt="image" class="card__img">
+
+                <div class="card__data">
+                    <span class="card__description">Diploma - Voto 100/100</span>
+                    <h2 class="card__title">Tecnico Informatico</h2>
+                    <br>
+                    <p style="font-size: 13px;">Ente del rilascio: <span>Istituto Santa Lucia</span></p>
+                    <br>
+                    <h4>Rilasciato il <span>11/07/2022</span></h4>
+                </div>
+            </article>
+
             <article class="card__article">
                 <img src="./images/ICPHP.png" alt="image" class="card__img">
 
@@ -119,7 +134,7 @@
                 <img src="./images/volta.jpg" alt="image" class="card__img">
 
                 <div class="card__data">
-                    <span class="card__description">Diploma</span>
+                    <span class="card__description">Diploma - Voto 100/100</span>
                     <h2 class="card__title">Web Developer Full Stack</h2>
                     <br>
                     <p style="font-size: 13px;">Ente del rilascio: <span>Istituto Volta</span></p>
@@ -280,9 +295,11 @@
 
 
     <!--! card certificate -->
-    <div class="container_card" id="c">
+    <div class="container_card" id="w">
         <h2 class="text_container">I Miei Lavori 😎</h2>
-        <p style="text-align: center; line-height: 1.6;">Il tag `<b>Progetto</b>` consiste in progetti a tempo perso, ovvero creazioni per arricchire l'apprendimento, <br> mentre il tag `<b>Lavoro</b>` oppure `<b>Ente</b>` consiste in reali lavori svolti!
+        <p style="text-align: center; line-height: 1.6;">Il tag `<b>Progetto</b>` consiste in progetti a tempo perso,
+            ovvero creazioni per arricchire l'apprendimento, <br> mentre il tag `<b>Lavoro</b>` oppure `<b>Ente</b>`
+            consiste in reali lavori svolti!
         </p>
         <br><br>
         <div class="card__container">
@@ -322,6 +339,41 @@
 
 
 
+
+
+
+
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="fo_section">
+                <h3 class="inf_f">Ti serve aiuto?</h3>
+                <a href="mailto:">Inviami una mail</a>
+                <a href="tel:+">Chiamami</a>
+            </div>
+
+            <div class="fo_section">
+                <h3 class="inf_f">Il mio servizio</h3>
+                <a href="mailto:">Chiedimi qualcosa</a>
+                <a href="">Cosa offro</a>
+                <a href="">Cosa cerco</a>
+            </div>
+
+            <div class="fo_section">
+                <h3 class="inf_f">Area legale</h3>
+                <a href="">Informativa</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Cookie</a>
+            </div>
+        </div>
+
+        <div class="footer_bottom">
+            <p>&copy;Copyright 2025 - 2026. Tutti i diritti riservati</p>
+        </div>
+    </footer>
+
+
+
+
     <!-- Link esterno per collegare il Framework Gsap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 
@@ -331,11 +383,11 @@
     <!-- Link esterno per collegare il Framework Lenis -->
     <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
 
-    <script src="./js/lenis.js"></script>
+    <script src="/js/lenis.js"></script>
 
-    <script src="./js/gsap.js"></script>
+    <script src="/js/gsap.js"></script>
 
-    <script src="./js/script.js"></script>
+    <script src="/js/script.js"></script>
 
 </body>
 
