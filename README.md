@@ -3,7 +3,7 @@ Il mio portfolio (v.1.0)
 
 
 -------------------------------
-Versione: 1.0
+Versione: 2.0
 Auth: Cotugno Vincenzo
 Template: None
 -------------------------------
@@ -22,4 +22,7 @@ Bug:
 
 -------------------------------
 Updater: 
+[+] Aggiunto pagina Cookie
+[+] Aggiunto pagina Privacy Policy
+[+] Aggiunto pagina Informativa
 -------------------------------
