@@ -4,7 +4,7 @@
 
 .theme {
     position: fixed;
-    bottom: 20px;
+    bottom: 40px;
     right: 0;
     z-index: 10;
 }
@@ -432,6 +432,7 @@
 .footer {
     width: 100%;
     min-height: 300px;
+    height: auto;
     position: relative;
     background-color: var(--card-bg);
 }
