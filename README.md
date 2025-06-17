@@ -22,7 +22,7 @@ Bug:
 
 -------------------------------
 Updater: 
-[+] Aggiunto pagina Cookie
-[+] Aggiunto pagina Privacy Policy
-[+] Aggiunto pagina Informativa
+- [+] Aggiunto pagina Cookie
+- [+] Aggiunto pagina Privacy Policy
+- [+] Aggiunto pagina Informativa
 -------------------------------
